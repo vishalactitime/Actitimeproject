@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database connected]]>
+    </line>
+    <line>
+      <![CDATA[test started]]>
+    </line>
+    <line>
+      <![CDATA[tesrscript paased]]>
+    </line>
+    <line>
+      <![CDATA[logout to application]]>
+    </line>
+    <line>
+      <![CDATA[database disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-02T15:30:50 IST" name="Default suite" finished-at="2022-12-02T15:31:42 IST" duration-ms="51664">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T15:30:50 IST" name="Default test" finished-at="2022-12-02T15:31:42 IST" duration-ms="51664">
+      <class name="com.Actitime.TestScripts.createcustomer">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:30:50 IST" name="databaseconnection" finished-at="2022-12-02T15:30:50 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:30:50 IST" name="launchBrowser" finished-at="2022-12-02T15:30:53 IST" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:30:53 IST" name="login" finished-at="2022-12-02T15:31:07 IST" duration-ms="14180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ghcreatecustomer()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:31:07 IST" name="ghcreatecustomer" finished-at="2022-12-02T15:31:32 IST" duration-ms="24469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test started]]>
+            </line>
+            <line>
+              <![CDATA[tesrscript paased]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ghcreatecustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:31:32 IST" name="logout" finished-at="2022-12-02T15:31:42 IST" duration-ms="10006" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:31:42 IST" name="closebrowser" finished-at="2022-12-02T15:31:42 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="databasedisconnected()[pri:0, instance:com.Actitime.TestScripts.createcustomer@50eac852]" started-at="2022-12-02T15:31:42 IST" name="databasedisconnected" finished-at="2022-12-02T15:31:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databasedisconnected -->
+      </class> <!-- com.Actitime.TestScripts.createcustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
